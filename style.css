@@ -17,17 +17,16 @@ background-image
 background-repeat
 */
 
+/* 
+background-postition
+background-size
+*/
+
 body {
-    background-image: url(./img/bg.jpg);
+    height: 1080px;
+    background-color:rebeccapurple;
+    background-image: url(./img/icon.png);
     background-repeat: no-repeat;
-}
-
-div {
-    width: 200px;
-    height: 200px;
-    background-color: violet;
-}
-
-p {
-    color: violet;
+    background-position: center;
+    background-size: 50px;
 }
